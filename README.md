@@ -16,9 +16,9 @@ The Arduino collects data from sensors such as temperature and humidity sensors.
 
 ## Hardware Components
 
-- Arduino board (specify model, e.g., Arduino Uno)
-- Temperature and humidity sensor (e.g., DHT11/DHT22)
-- Soil moisture sensor (if used)
+- Arduino board (Arduino Uno)
+- Temperature and humidity sensor (DHT11)
+- Soil moisture sensor
 - Relay module
 - DC fan / LED grow light
 - Solar panel and battery system
@@ -28,20 +28,20 @@ The Arduino collects data from sensors such as temperature and humidity sensors.
 - Arduino IDE for embedded programming
 - Arduino sketch (included in this repository)
 - Mobile application (Android-based)
-- Communication protocol (Bluetooth/Wi-Fi)
+- Communication protocol (Bluetooth)
 
 ## How to Run the Arduino Code
 
 1. Install the Arduino IDE.
 2. Open the provided `.ino` file.
-3. Install required libraries (specify if any, e.g., DHT library).
+3. Install required libraries.
 4. Select the correct board and COM port.
 5. Upload the sketch to the Arduino board.
 
 ## How to Use the Mobile Application
 
 1. Install the APK file on an Android device.
-2. Enable Bluetooth/Wi-Fi on the phone.
+2. Enable Bluetooth on the phone.
 3. Connect to the Arduino device.
 4. Monitor environmental readings and control system parameters through the app interface.
 
